@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  SwiftCoreTraining
+
+  Created by Dmytro Geienko on 6/16/19.
+  Copyright © 2019 chrisik. All rights reserved.
+*/
+
+"loading" = "Loading";

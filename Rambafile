@@ -1,0 +1,34 @@
+### Headers settings
+company: SergLam
+
+### Xcode project settings
+project_name: SwiftCoreTraining
+xcodeproj_path: SwiftCoreTraining.xcodeproj
+
+### Code generation settings section
+# The main project target name
+project_target: SwiftCoreTraining
+
+# The file path for new modules
+project_file_path: Generated_Code/Modules
+
+# The Xcode group path to new modules
+project_group_path: Generated_Code/Modules
+
+### Dependencies settings section
+podfile_path: Podfile
+
+### Templates
+catalogs:
+- 'https://github.com/SergLam/Generamba-Templates'
+
+templates:
+- {name: z_swifty_viper, git: 'https://github.com/SergLam/Generamba-Templates', branch: 'master'}
+
+- {name: z_table_view, git: 'https://github.com/SergLam/Generamba-Templates', branch: 'master'}
+- {name: z_collection_view_h, git: 'https://github.com/SergLam/Generamba-Templates', branch: 'master'}
+- {name: z_collection_view_v, git: 'https://github.com/SergLam/Generamba-Templates', branch: 'master'}
+
+- {name: z_table_view_controller_mvvm, git: 'https://github.com/SergLam/Generamba-Templates', branch: 'master'}
+- {name: z_photo_selection, git: 'https://github.com/SergLam/Generamba-Templates', branch: 'master'}
+- {name: z_slide_nav_vc, git: 'https://github.com/SergLam/Generamba-Templates', branch: 'master'}
